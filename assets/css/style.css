@@ -794,6 +794,11 @@ header {
     color: #166288;
 }
 
+.portfolio-item-inactive {
+    display: none;
+}
+
+
 #footer1{
     background-color:#3B4050;
     width: 120.702%;

@@ -170,16 +170,37 @@ $("#portfolio-select-bar-1").click(function () {
   $("#portfolio-select-bar-1").addClass("portfolio-select-bar2-item-active");
   $("#portfolio-select-bar-2").removeClass("portfolio-select-bar2-item-active");
   $("#portfolio-select-bar-3").removeClass("portfolio-select-bar2-item-active");
+
+  $("#portfolio-item-2").removeClass("portfolio-item-inactive");
+  $("#portfolio-item-3").removeClass("portfolio-item-inactive");
+  $("#portfolio-item-4").removeClass("portfolio-item-inactive");
+  $("#portfolio-item-5").removeClass("portfolio-item-inactive");
+  $("#portfolio-item-1").removeClass("portfolio-item-inactive");
 });
 
 $("#portfolio-select-bar-2").click(function () {
   $("#portfolio-select-bar-2").addClass("portfolio-select-bar2-item-active");
   $("#portfolio-select-bar-1").removeClass("portfolio-select-bar2-item-active");
   $("#portfolio-select-bar-3").removeClass("portfolio-select-bar2-item-active");
+
+  $("#portfolio-item-2").addClass("portfolio-item-inactive");
+  $("#portfolio-item-3").addClass("portfolio-item-inactive");
+  $("#portfolio-item-4").addClass("portfolio-item-inactive");
+  $("#portfolio-item-5").addClass("portfolio-item-inactive");
+  $("#portfolio-item-1").removeClass("portfolio-item-inactive");
+
+
 });
 
 $("#portfolio-select-bar-3").click(function () {
   $("#portfolio-select-bar-3").addClass("portfolio-select-bar2-item-active");
   $("#portfolio-select-bar-1").removeClass("portfolio-select-bar2-item-active");
   $("#portfolio-select-bar-2").removeClass("portfolio-select-bar2-item-active");
+
+  $("#portfolio-item-2").removeClass("portfolio-item-inactive");
+  $("#portfolio-item-3").removeClass("portfolio-item-inactive");
+  $("#portfolio-item-4").removeClass("portfolio-item-inactive");
+  $("#portfolio-item-5").removeClass("portfolio-item-inactive");
+  $("#portfolio-item-1").addClass("portfolio-item-inactive");
+
 });
