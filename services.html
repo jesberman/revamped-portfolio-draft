@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+
+<head>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>
+        Jes Berman Consulting: Web Development and Content Writing
+    </title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="logo" style="position: relative; top: 67px;">
+            <a id="logo" href="index.html">
+                JES BERMAN CONSULTING
+            </a>
+        </div>
+
+        <ul class="nav-list">
+
+            <li class="nav-list-item" style="position: relative; right: 200px;">
+                <a href="index.html" class="nav-list-link nav-hover-differentpage">
+                    HOME
+                </a>
+            </li>
+
+            <li class="nav-list-item" style="position: relative; right: 200px;">
+                <a href="services.html" style="display: inline-block;" class="nav-list-link nav-hover-samepage ">
+                    SERVICES
+                </a>
+            </li>
+
+            <li class="nav-list-item" style="position: relative; left: 200px;">
+                <a href="portfolio.html" class="nav-list-link nav-hover-differentpage">
+                    PORTFOLIO
+                </a>
+            </li>
+
+            <li class="nav-list-item" style="position: relative; left: 200px;">
+                <a href="blog.html" class="nav-list-link nav-hover-differentpage">
+                    BLOG
+                </a>
+            </li>
+        </ul>
+    </header>
+
+    <div id="banner">
+        <div class="banner-content">
+            <h3>
+                YOU HAVE A BUSINESS TO RUN
+            </h3>
+
+            <h3>
+                LET US HANDLE YOUR WEBSITE
+            </h3>
+
+            <!-- <a href="services.html">
+                <button id="banner-button">
+                    Learn More
+                </button>
+            </a> -->
+            <a href="services.html" style="text-decoration: none;">
+                <div id="banner-button">
+                    Learn More
+                </div>
+            </a>
+
+            <p id="banner-symbol">
+                J
+            </p>
+        </div>
+    </div>
+
+    <div id="what-we-do-services">
+        <br>
+        <table style="display: none;" id="what-we-do-table">
+            <tr>
+                <td class="what-we-do-table-heading">
+                    Web Design
+                </td>
+                <td class="what-we-do-table-heading">
+                    Web Development
+                </td>
+                <td class="what-we-do-table-heading">
+                    Content Writing
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="assets/images/design.jpg" id="what-we-do-table-image-design" onmouseover="this.src='assets/images/design.gif';"
+                        onmouseout="this.src='assets/images/design.jpg';" style="height: 170px; width:200px; border-radius: 25px;">
+                </td>
+                <td>
+                    <img src="assets/images/dev.jpg" id="what-we-do-table-image-dev" onmouseover="this.src='assets/images/dev.gif';" onmouseout="this.src='assets/images/dev.jpg';"
+                        style=" height: 170px; width:200px; border-radius: 25px;">
+
+                </td>
+                <td>
+                    <img src="assets/images/content.jpg" id="what-we-do-table-image-content" onmouseover="this.src='assets/images/content.gif';"
+                        onmouseout="this.src='assets/images/content.jpg';" style="height: 170px; width:200px; border-radius: 25px;">
+
+                </td>
+            </tr>
+            <tr>
+                <td class="what-we-do-table-item">
+                    We will work with you to design a website tailor-made for your specific goals.
+                </td>
+                <td class="what-we-do-table-item" style="position: relative; top:15px;">
+                    We will custom write the HTML, CSS, and JavaScript code needed to build the site your business needs.
+                </td>
+                <td class="what-we-do-table-item" style="position: relative; top:25px;">
+                    Where other developers would stop, we keep going. We will write blogs, articles, and other types of content to keep your
+                    site engaging.
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div style="height: 900px;">
+        <div>
+            <img src="assets/images/office.jpeg" style="position: fixed;bottom: 100px; z-index: -2; width: 100%;">
+            <div id="blue-box">
+                <h2 style=" text-align: center; font-size:42px; color: rgb(0, 83, 125); font-family: fantasy; text-transform: uppercase;">
+                    WHAT WE DO
+                </h2>
+                <h3 style="color: white; text-align: center; font-size: 28px;">
+                    You know you need a website. But you're not sure how to make one, and you don't have time to learn. That's where we come
+                    in. At Jes Berman Consulting, we offer quality Web Development and Content Writing services. We will
+                    design your website, build it from scratch, and write the blogs and articles needed to drive traffic
+                    and secure new customers. You have enough to worry about. Let us handle this.
+                </h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div id="web-services">
+        <h2 id="web-services-heading">
+            Wed Design & Development
+        </h2>
+
+        <div id="web-services-side-box">
+
+            <div style=" border: 5px solid black; background-color: white; border-radius: 150px; height: 240px; width: 240px;position: relative; left: 30px; top: 30px;">
+                <img src="assets/images/comp.jpg" style="position: relative; left: 20px; top: 40px; height: 150px; width: 220px;">
+            </div>
+            <h2 id="web-services-side-box-heading">
+                CUSTOM WEBSITES
+            </h2>
+            <h2 id="web-services-side-box-text">
+                As the cornerstone of our business, we take great pride in our web development services
+            </h2>
+        </div>
+
+        <h3 id="web-services-text">
+            Creating websites is a complex process. It takes both the skilled technical knowledge needed to write quality code in modern
+            computer languages, as well as a clear sense of artistry and an understanding of the types of visual cues that
+            human beings naturally respond to.
+        </h3>
+        <h3 id="web-services-text" style="margin-top: 0px;">
+            Thankfully, we've got you covered.
+        </h3>
+        <div>
+            <div>
+                <h2 class="cube-button">
+                    +
+                </h2>
+
+                <div class="cube">
+                    <h2 class="cube-heading">
+                        Web Design
+                    </h2>
+                    <h2 style="font-family: lato; color: white;">
+                        We will work with you to come up with a custom design for your website
+                    </h2>
+                </div>
+            </div>
+
+        </div>
+    </div> -->
+
+    <div id="cube-section">
+        <div id="cube-section-heading">
+            <h2 id="cube-section-heading-text" class="cs">
+                WEBSITE DESIGN & DEVELOPMENT
+            </h2>
+            <br>
+            <h3 class="cs" style="font-size:28px; text-align: left;margin-left: 25%; margin-right: 10%;">
+                Creating websites is a complex process. It takes both the skilled technical knowledge needed to write quality code in modern
+                computer languages, as well as a clear sense of artistry and an understanding of the types of visual cues
+                that human beings naturally respond to.
+            </h3>
+            <h3 class="cs" style="font-size:28px; text-align: left;margin-left: 25%; margin-right: 10%;">
+                Thankfully, we've got you covered.
+            </h3>
+        </div>
+        <div id="cube-section-sidebar">
+            <div id="cube-section-sidebar-portrait">
+                <img src="assets/images/comp.jpg" style="width: 90%; height:70%; position: relative; left: 10%; top: 10px;">
+            </div>
+            <br>
+            <h2 class="cs" style="padding-left: 10%; font-size: 18px;">
+                As the cornerstone of our business, we take great pride in our web development services
+            </h2>
+        </div>
+        <div style="position: relative; margin-left: 20%; margin-right:20%; bottom: 140px;">
+
+            <div class="cs" id="cube-section-des">
+                <div id="cube-section-des-button-div">
+                    <h1 class="cube-section-des-button">
+                        +
+                    </h1>
+                </div>
+
+                <div style="background-color: #64D0D9; width: 80%; height: 70px;float: left;">
+                    <h3 class="cube-section-web-design-heading">
+                        Web Design
+                    </h3>
+                </div>
+
+                <div class="cube-section-des-text-field">
+                    <h4 style=" font-size: 24px; position: relative; top: 20px;">
+                        We will work with you to come up with a custom design for your website
+                    </h4>
+                </div>
+            </div>
+            <div id="cube-section-webdev">
+
+                <div id="cube-section-webdev-button-div">
+
+                    <h1 class="cs cube-section-webdev-button">
+                        +
+                    </h1>
+                </div>
+                <div style="background-color: #64D0D9; width: 80%; height: 70px;float: left;">
+                    <h3 class="cube-section-dev-text-field cs">
+                        Web Development
+                    </h3>
+                </div>
+                <div class="cs cube-section-webdev-text-field" style="position: relative; bottom: 0px;">
+                    <h4>
+                        We will custom write our code to create the website that you envisioned
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="cube-section2" style="background-color: #EFF2F2;">
+        <div id="cube-section-heading">
+            <h2 id="cube-section-heading-text" class="cs">
+                CONTENT WRITING
+            </h2>
+            <br>
+            <h3 class="cs" style=" color: #075380; font-size:28px; text-align: left;margin-left: 25%; margin-right: 10%; text-shadow: none;">
+                Many developers will build the basics of a site and leave it to their client to fill in the content. But we’re not just any
+                developer. After coding your site, we will also fill it with engaging, quality content including blog postings,
+                articles, and anything else needed to draw readers in.
+            </h3>
+        </div>
+        <div id="cube-section-sidebar" style="background-color: #64D0D9;">
+            <div id="cube-section-sidebar-portrait">
+                <img src="assets/images/pen.jpg" style="width: 62%; height: 80%;position: relative; left: 20%; top: 15px;">
+            </div>
+            <br>
+            <h2 class="cs" style="padding-left: 10%; font-size: 18px; ">
+                We will provide your website with quality content in the form of blogs, articles, and more
+            </h2>
+        </div>
+        <div style="position: relative; margin-left: 20%; margin-right:20%; bottom: 140px;">
+
+            <div class="cs" id="cube-section-des" style="background-color: #EFF2F2;">
+                <div id="cube-section-des-button-div" style="background-color: #EFF2F2;">
+                    <h1 class="cube-content-button" style="color:#075380; text-shadow: none;">
+                        +
+                    </h1>
+                </div>
+
+                <div style=" background-color:  #EFF2F2; width: 80%; height: 70px;float: left;">
+                    <h3 class="cube-content-heading" style="background-color: #EFF2F2; font-size: 28px; color: #075380; text-shadow: none;">
+                        Article & Blog Writing
+                    </h3>
+                </div>
+
+                <div class="cube-section-content-text-field">
+                    <h4 style="text-shadow: none; color: #075380; font-size: 24px; position: relative; top: 20px;">
+                        We will work with you to come up with a custom design for your website
+                    </h4>
+                </div>
+            </div>
+            <!-- <div id="cube-section-webdev" style="background-color: #EFF2F2;">
+
+                <div id="cube-section-webdev-button-div" style="background-color: #EFF2F2;">
+
+                    <h1 class="cs cube-section-webdev-button" style="background-color: #EFF2F2;">
+                        +
+                    </h1>
+                </div>
+                <div style="background-color: #EFF2F2; width: 80%; height: 70px;float: left;">
+                    <h3 class="cs" style="font-size: 28px;">
+                        Web Development
+                    </h3>
+                </div>
+                <div class="cs cube-section-webdev-text-field" style="background-color: #EFF2F2; position: relative; bottom: 0px;">
+                    <h4>
+                        We will custom write our code to create the website that you envisioned
+                    </h4>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <!-- <div id="print-services">
+        <h2 id="print-services-heading">
+            Content Writing
+        </h2>
+        <div id="print-services-side-box">
+            <div style="border: 5px solid black; background-color: white; border-radius: 150px; height: 240px; width: 240px;position: relative; left: 30px; top: 30px;">
+                <img src="assets/images/pen.jpg" style="position: relative; left: 30px; top: 40px; height: 150px; width: 180px;">
+            </div>
+            <h2 id="print-services-side-box-heading">
+
+            </h2>
+        </div>
+
+        <h3 id="print-services-text">
+            Ipsum
+        </h3>
+    </div> -->
+
+    <div id="ending-div">
+        <h1 id="ending-div-heading-a">
+            LET'S BUILD SOMETHING REAL
+        </h1>
+        <h1 id="ending-div-heading-b">
+            LET'S WORK TOGETHER TO BUILD SOMETHING REAL
+        </h1>
+        <br>
+        <h1 id="ending-div-subheading-a">
+            Shoot us an email!
+        </h1>
+        <br>
+        <h1 class="ending-div-text-a">
+            Reach us at
+        </h1>
+        <h1 class="ending-div-text-a">
+            jesberman@gmail.com
+        </h1>
+        <h1 class="ending-div-text-a">
+            And we'll get back to you ASAP!
+        </h1>
+    </div>
+
+
+    <footer style="overflow: hidden;">
+        <div id="footer1" style="text-align: center;">
+            <table id="footer-table">
+                <tr>
+                    <td class="footer-table-item" style="font-family:fantasy">
+                        Jes Berman Consulting
+                    </td>
+
+                    <td class="footer-table-item">
+                        Navigation
+                    </td>
+
+                    <td class="footer-table-item footer-right">
+                        Recent Posts
+                    </td>
+                </tr>
+                <tr>
+                    <td style="position: relative; bottom: 100px;">
+                        <h3 style="font-family: Lato;">
+                            East Windsor, NJ
+                        </h3>
+                        <h3 style="font-family: Lato;">
+                            609.610.1891
+                        </h3>
+                        <a class="footer-navigation-items" href="contact.html">
+                            <button id="footer-contact-button">
+                                Contact Us
+                            </button>
+                        </a>
+                    </td>
+
+                    <td>
+                        <div style="position: relative; right: 70px; ">
+                            <h2>
+                                <a class="footer-navigation-items" href="about-us.html">
+                                    about us
+                                </a>
+                            </h2>
+
+                            <h2>
+                                <a href="services.html" class="footer-navigation-items">
+                                    services
+                                </a>
+                            </h2>
+
+                            <h2>
+                                <a href="portfolio.html" class="footer-navigation-items">
+                                    portfolio
+                                </a>
+                            </h2>
+                        </div>
+
+                        <div style="position: relative; left: 100px; bottom: 140px;">
+                            <h2>
+                                <a class="footer-navigation-items" href="contact.html">
+                                    contact
+                                </a>
+                            </h2>
+                            <h2>
+                                <a class="footer-navigation-items" href="blog.html">
+                                    blog
+                                </a>
+                            </h2>
+                            <h2>
+                                <a href="index.html" class="footer-navigation-items">
+                                    home
+                                </a>
+                            </h2>
+                            <h2 style="position: relative; right: 85px;">
+                                <a href="privacy.html" class="footer-navigation-items">
+                                    privacy policy
+                                </a>
+                            </h2>
+                        </div>
+                    </td>
+
+                    <td style="position: relative; bottom: 100px;">
+                        <h2>
+                            <a href="blog1.html" class="footer-navigation-items footer-right">
+                                Just Get Started!
+                            </a>
+                        </h2>
+                        <h2>
+                            <a href="blog2.html" class="footer-navigation-items footer-right">
+                                Flipping Your Bulb
+                            </a>
+                        </h2>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="scroll-up-button" style="display:none; position: fixed;  text-align: center;bottom: 130px; right: 0px;width: 50px; height: 40px; border-radius:10px 0px 0px 10px; background-color: rgb(143, 145, 145,.7);">
+            <a id="scroll-up-text" href="#banner" style="color: white; text-decoration: none; font-size: 30px;  font-family: lato;">
+                ʌ
+            </a>
+        </div>
+
+        <div id="footer2">
+            <p style="position: relative; left: 200px;">
+                Jes Berman Consulting
+                <!-- Facebook -->
+                <a href="" class="fa fb-ic">
+                    <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+                <!-- Twitter -->
+                <a href="" class="fa tw-ic">
+                    <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+                <!-- Google +-->
+                <a href="" class="fa gplus-ic">
+                    <i class="fa fa-google-plus fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+                <!--Linkedin -->
+                <a href="" class="fa li-ic">
+                    <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+                <!--Instagram-->
+                <a href="" class="fa ins-ic">
+                    <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+                <!--Pinterest-->
+                <a href="" class="fa pin-ic">
+                    <i class="fa fa-pinterest fa-lg white-text fa-2x"> </i>
+                </a>
+
+            </p>
+        </div>
+    </footer>
+
+    <script src="assets/javascript/logic.js">
+    </script>
+</body>
+
+</html>
