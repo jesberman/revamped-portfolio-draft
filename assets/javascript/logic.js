@@ -32,7 +32,13 @@ function test() {
     $("#cube-section2").fadeIn(3000);
 
   }
+  if (document.body.scrollTop > 850 || document.documentElement.scrollTop > 850) {
+    $("#ending-div-heading-c").fadeIn(4000);
+    $("#ending-div-heading-c").fadeIn(5000);
 
+    $("#ending-div-subheading-c").fadeIn(4000);
+    $(".ending-div-text-c").fadeIn(4000);
+  }
 }
 //***********************************************************************/
 
@@ -164,8 +170,7 @@ $(".cube-content-button").click(function () {
 // ********************************************************************************
 
 
-// *************************************************************************************
-
+// *******************Used to control the display of items on the Portfolio page************
 $("#portfolio-select-bar-1").click(function () {
   $("#portfolio-select-bar-1").addClass("portfolio-select-bar2-item-active");
   $("#portfolio-select-bar-2").removeClass("portfolio-select-bar2-item-active");
