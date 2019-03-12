@@ -39,6 +39,12 @@ function test() {
     $("#ending-div-subheading-c").fadeIn(4000);
     $(".ending-div-text-c").fadeIn(4000);
   }
+  if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
+    $("#ending-div-heading-d").fadeIn(3000);
+
+    $("#ending-div-subheading-d").fadeIn(3000);
+    $(".ending-div-text-d").fadeIn(3000);
+  }
 }
 //***********************************************************************/
 

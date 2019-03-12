@@ -239,6 +239,19 @@ header {
     /* transition: transform 2.2s;  */
 }
 
+#scroll-up-button {
+    display:none; 
+    position: fixed;  
+    text-align: center;
+    bottom: 130px; 
+    right: 0px;
+    width: 50px; 
+    height: 40px; 
+    border-radius:10px 0px 0px 10px; 
+    background-color: rgb(143, 145, 145,.7);
+}
+
+
 #orange-box {
     position: relative; 
     top: 300px; 
@@ -357,7 +370,7 @@ header {
     margin-top: 100px;
 }
 
-#ending-div {
+#ending-div-a {
     height: 720px;
     background-color: #64D0D9;
     width: 100%;
@@ -424,7 +437,15 @@ header {
      font-size: 43px;
      display: none;
      text-shadow: 2px 2px 4px #000000;
+}
 
+#ending-div-heading-d {
+    text-align: center; 
+    font-family: fantasy;
+     color: #00537D; 
+     font-size: 43px;
+     display: none;
+     text-shadow: 2px 2px 4px #000000;
 }
 
 #ending-div-subheading-a {
@@ -436,6 +457,13 @@ header {
 }
 
 #ending-div-subheading-c {
+    color: #FFCF83;
+    font-family: lato;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    display: none;
+}
+#ending-div-subheading-d {
     color: #FFCF83;
     font-family: lato;
     text-align: center;
@@ -458,10 +486,21 @@ header {
     text-shadow: 2px 2px 4px #000000;
     display: none;
 }
+
+.ending-div-text-d {
+    color: white;
+    font-family: lato;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    display: none;
+}
 .cs {
     color: white;
     text-shadow: 2px 2px 4px #000000;
+}
 
+.services-fadein-1 {
+    display: none;
 }
 .cube {
     width: 600px;
@@ -816,9 +855,7 @@ header {
     text-align: center;
     position: relative;
     top: 100px;
-
 }
-
 
 .portfolio-table-image {
     width: 300px;
@@ -831,6 +868,7 @@ header {
 
 .portfolio-table-image:hover {
     transform: scale(1.12);
+
 }
 .portfolio-table-image-heading { 
     font-family: lato;
@@ -841,13 +879,84 @@ header {
     display: none;
 }
 
+
 #blog-main-window {
     width: 100%;
     height: 800px;
     background-color: #EFF2F2;
 }
 
+.blog-banner {
+    background-color: #64D0D9;
+    height: 300px;
+    width: 100%; 
+    text-align: center;
+    color: white;
+    font-family: fantasy;
+    padding-top: 200px;
+    font-size: 32px;
+    text-shadow: 2px 2px 4px #000000;
+}
 
+.blog-window {
+
+    background-color: #EFF2F2;
+    width: 80%;
+     margin-top: -0px;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 100px;
+    font-family: lato;
+    font-size: 32px;
+    color: #848484; 
+}
+
+.blog-window-subheading {
+    font-size: 42px;
+    font-family: fantasy;
+    color: #00537D;
+}
+
+#about-us-image {
+    position: relative; 
+    top: 100px;
+    width: 100%;
+}
+
+#about-us-image-heading {
+    text-align: center; 
+    font-size:43px; 
+    position: relative; 
+    bottom: 100px; 
+    color: white; 
+    font-family: fantasy;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#contact-banner {
+    background-color: #3B404F;
+    width: 100%;
+    height: 600px;
+}
+
+#contact-banner-heading {
+    position: relative;
+    top: 300px;
+    color: white;
+    font-family: fantasy;
+    text-align: center;
+    font-size: 43px;
+}
+
+.contact-banner-text {
+    color: white;
+    font-family: lato;
+    text-align: center;
+    font-size: 24px;
+    position: relative;
+    top: 300px;
+
+}
 #footer1{
     background-color:#3B4050;
     width: 120.702%;
@@ -910,7 +1019,7 @@ header {
 #footer2 {
     background-color: #282B36;
     width: 100.702%;
-    height: 70px;
+    height: 150px;
     margin-left: -10px;
     border-color: #282B36;
     border-style: solid;
@@ -921,7 +1030,8 @@ header {
 
 .fa {
     position: relative;
-    left: 30%;
+    right: 5%;
+    top: 20px;
     margin-left: 2%;
     font-size: 30px;
     color: #666663;
@@ -935,3 +1045,863 @@ header {
     overflow: hidden;
 }
   
+#footer-icons {
+    position: relative; 
+    left: 520px;
+}
+
+@media screen and (max-width: 1035px){
+
+    #nav-list-item-1 {
+        /* display: block;
+        position: relative;
+        left: -10px;
+        top: 0px; */
+        font-size: 9px;
+
+    }
+
+    #nav-list-item-2 {
+        /* display: block;
+        position: relative;
+        left: -10px;
+        top: 0px; */
+        font-size: 9px;
+    }
+
+    #nav-list-item-3 {
+        position: relative;
+        right: 40px;
+        font-size: 9px;
+
+    }
+
+    #nav-list-item-4 {
+        position: relative;
+        right: 40px;
+        font-size: 9px;
+
+    }
+
+    #footer-table-name {
+        position: relative;
+        left: 20px;
+    }
+
+    #footer-table-item-east-windsor {
+        position: relative;
+        left: 10px;
+    }
+
+    #footer-table-item-blogs {
+        position: relative;
+        right: 20px;
+    }
+
+    #footer-table-item-recent-posts {
+        position: relative;
+        right: 20px;
+    }
+}
+
+@media screen and (max-width: 775px){
+    
+    #nav-list-item-1 {
+        display: block;
+        position: relative;
+        left: -10px;
+        top: 0px;
+        font-size: 9px;
+
+    }
+
+    #nav-list-item-2 {
+        display: block;
+        position: relative;
+        left: -10px;
+        top: 0px;
+        font-size: 9px;
+    }
+
+    #nav-list-item-3 {
+        display: block;
+        position: relative;
+        right: 210px;
+        bottom: 15px;
+        font-size: 9px;
+
+    }
+
+    #nav-list-item-4 {
+        display: block;
+        position: relative;
+        right: 210px;
+        bottom: 10px;
+        font-size: 9px;
+
+    }
+
+
+    header {
+        height: 200px;
+        width: 100%;
+    }
+
+    #logo{
+        font-size: 16px;
+        position: relative;
+        bottom: 25px;
+    }
+
+
+    #footer1 {
+        height: 900px;
+    }
+    
+    #footer-table-name {
+        position: relative;
+        left: 300px;
+    }
+    
+    #footer-table-item-east-windsor {
+        position: relative;
+        left: 310px;
+    }
+    #footer-table-item-navigation{
+        position: relative;
+        right: 40px;
+        top: 300px;
+    }
+
+    #footer-table-item-about-us{
+        position: relative;
+        right: 60px;
+        top: 260px;
+
+
+    }
+    #footer-table-item-recent-posts{
+        position: relative;
+        right:350px;
+        top: 550px;
+    }
+
+    #footer-table-item-blogs{
+        position: relative;
+        right: 350px;
+        top: 410px;
+    }
+
+    #footer2 {
+        height: 200px;
+    }
+
+    #footer-icons {
+        position: relative;
+        left: 280px;
+    }
+
+    .fa {
+        position: relative;
+        top: 20px;
+        right: 20px;
+    }
+}
+
+
+@media screen and (max-width: 435px){
+    #nav-list-item-1 {
+        display: block;
+        position: relative;
+        left: -10px;
+        top: 0px;
+        font-size: 9px;
+
+    }
+
+    #nav-list-item-2 {
+        display: block;
+        position: relative;
+        left: -10px;
+        top: 0px;
+        font-size: 9px;
+    }
+
+    #nav-list-item-3 {
+        display: block;
+        position: relative;
+        right: 210px;
+        bottom: 15px;
+        font-size: 9px;
+
+    }
+
+    #nav-list-item-4 {
+        display: block;
+        position: relative;
+        right: 210px;
+        bottom: 10px;
+        font-size: 9px;
+
+    }
+
+    header {
+        height: 200px;
+        width: 100%;
+    }
+
+    #logo{
+        font-size: 16px;
+        position: relative;
+        bottom: 25px;
+    }
+    #home-header {
+        width: 41%;
+    }
+
+    #banner{
+        height: 550px;
+    }
+
+    #banner-symbol {
+        display: none;
+    }
+
+    #banner-content-text1 {
+        position: relative;
+        right: 100px;
+        font-size: 25px;
+    }
+    #banner-content-text2 {
+        position: relative;
+        right: 100px;
+        font-size: 25px;
+
+    }
+
+    #banner-button {
+        position: relative;
+        right: 60px;
+    }
+
+    #what-we-do {
+        height: 2800px;
+    }
+
+    .what-we-do-text {
+        position: relative;
+        right: 20px;
+    }
+    
+    #what-we-do-table-heading-1{
+        position: relative;
+        right: -50px;
+        top: 0px;
+    }
+
+    #what-we-do-table-image-design{
+        position: relative;
+        right: -50px;
+        top: 00px;
+    }
+
+    #what-we-do-table-text-1{
+        position: relative;
+        right: -50px;
+        top: 0px;
+    }
+
+    #what-we-do-table-heading-2{
+        position: relative;
+        right: 250px;
+        top: 600px;
+    }
+
+    #what-we-do-table-image-dev{
+        position: relative;
+        right: 250px;
+        top: 600px;
+    }
+
+    #what-we-do-table-text-2{
+        position: relative;
+        right: 250px;
+        top: 600px;
+    }
+
+    #what-we-do-table-heading-3{
+        position: relative;
+        right: 570px;
+        top: 1200px;
+    }
+
+    #what-we-do-table-image-content{
+        position: relative;
+        right: 570px;
+        top: 1200px;
+    }
+
+    #what-we-do-table-text-3{
+        position: relative;
+        right: 570px;
+        top: 1235px;
+    }
+
+
+
+    #index-image {
+        visibility: hidden;
+    }
+
+    #logo{
+        font-size: 16px;
+        position: relative;
+        bottom: 25px;
+        left: 8px;
+    }
+
+    #ending-div-a {
+        position: relative;
+        bottom: 300px;
+        height: 800px;
+    }
+
+    .ending-div-text {
+        font-size: 22px;
+        position: relative;
+        left: 60px;
+        width: 200px;
+    }
+
+    #ending-div-heading {
+        position: relative;
+        left: 70px;
+        width: 200px;
+
+    }
+
+    #ending-div-subheading {
+        position: relative;
+        right: 30px;
+    }
+
+    .ending-div-text {
+        position: relative;
+        left: 75px;
+    }
+
+    #footer-a{
+        margin-top: -350px;
+    }
+
+    #footer1 {
+        height: 900px;
+    }
+
+    #footer-table-name {
+        position: relative;
+        left: 80px;
+    }
+
+    #footer-table-item-east-windsor {
+        position: relative;
+        left: 80px;
+    }
+
+    #footer-table-item-navigation{
+        position: relative;
+        right: 250px;
+        top: 300px;
+    }
+
+    #footer-table-item-about-us{
+        position: relative;
+        right: 250px;
+        top: 260px;
+
+
+    }
+    #footer-table-item-recent-posts{
+        position: relative;
+        right: 560px;
+        top: 550px;
+    }
+
+    #footer-table-item-blogs{
+        position: relative;
+        right: 570px;
+        top: 410px;
+    }
+
+    #footer2 {
+        height: 200px;
+    }
+
+    #footer-icons {
+        position: relative;
+        left: 20px;
+    }
+
+    .fa {
+        position: relative;
+        top: 20px;
+        right: 0px;
+    }
+}
+
+
+@media screen and (max-width: 385px){
+    #nav-list-item-1 {
+        display: block;
+        position: relative;
+        left: -10px;
+        top: 0px;
+        font-size: 9px;
+
+    }
+
+    #nav-list-item-2 {
+        display: block;
+        position: relative;
+        left: -10px;
+        top: 0px;
+        font-size: 9px;
+    }
+
+    #nav-list-item-3 {
+        display: block;
+        position: relative;
+        right: 210px;
+        bottom: 15px;
+        font-size: 9px;
+
+    }
+
+    #nav-list-item-4 {
+        display: block;
+        position: relative;
+        right: 210px;
+        bottom: 10px;
+        font-size: 9px;
+
+    }
+
+
+    header {
+        height: 200px;
+        width: 100%;
+    }
+
+    /* #logo{
+        font-size: 16px;
+        position: relative;
+        bottom: 25px;
+    } */
+
+    #home-header {
+        width: 37%;
+    }
+
+    #banner{
+        height: 750px;
+    }
+
+    #banner-symbol {
+        display: none;
+    }
+
+    #banner-content-text1 {
+        position: relative;
+        right: 100px;
+        font-size: 25px;
+    }
+    #banner-content-text2 {
+        position: relative;
+        right: 100px;
+        font-size: 25px;
+
+    }
+
+    #banner-button {
+        position: relative;
+        right: 60px;
+    }
+
+    #what-we-do {
+        height: 2800px;
+    }
+
+    .what-we-do-text {
+        position: relative;
+        right: 20px;
+    }
+    
+
+    #what-we-do-table-heading-2{
+        position: relative;
+        right: 300px;
+        top: 600px;
+    }
+
+    #what-we-do-table-image-dev{
+        position: relative;
+        right: 300px;
+        top: 600px;
+    }
+
+    #what-we-do-table-text-2{
+        position: relative;
+        right: 300px;
+        top: 600px;
+    }
+
+    #what-we-do-table-heading-3{
+        position: relative;
+        right: 620px;
+        top: 1200px;
+    }
+
+    #what-we-do-table-image-content{
+        position: relative;
+        right: 620px;
+        top: 1200px;
+    }
+
+    #what-we-do-table-text-3{
+        position: relative;
+        right: 620px;
+        top: 1235px;
+    }
+
+
+
+    #index-image {
+        visibility: hidden;
+    }
+
+    #logo{
+        font-size: 16px;
+        position: relative;
+        bottom: 25px;
+        left: 8px;
+    }
+
+    #ending-div-a {
+        position: relative;
+        bottom: 300px;
+    }
+
+    .ending-div-text {
+        font-size: 22px;
+        position: relative;
+        left: 60px;
+        width: 200px;
+    }
+
+    #ending-div-heading {
+        position: relative;
+        left: 70px;
+        width: 200px;
+
+    }
+
+
+    #footer1 {
+        height: 900px;
+    }
+
+    #footer-a {
+
+        margin-top: -300px;
+
+    }
+
+    #footer-table-name {
+        position: relative;
+        left: 20px;
+    }
+
+    #footer-table-item-east-windsor {
+        position: relative;
+        left: 10px;
+    }
+
+    #footer-table-item-navigation{
+        position: relative;
+        right: 340px;
+        top: 300px;
+    }
+
+    #footer-table-item-about-us{
+        position: relative;
+        right: 320px;
+        top: 260px;
+
+
+    }
+    #footer-table-item-recent-posts{
+        position: relative;
+        right: 640px;
+        top: 550px;
+    }
+
+    #footer-table-item-blogs{
+        position: relative;
+        right: 620px;
+        top: 410px;
+    }
+
+    .fa{
+        left: 0px;
+    }
+    
+    
+}
+
+
+
+
+@media screen and (max-width: 330px){
+
+
+    #nav-list-item-1 {
+        display: block;
+        position: relative;
+        right: -10px;
+        top: 20px;
+        font-size: 19px;
+
+    }
+
+    #nav-list-item-2 {
+        display: block;
+        position: relative;
+        left: -10px;
+        top: 20px;
+        font-size: 19px;
+    }
+
+    #nav-list-item-3 {
+        display: block;
+        position: relative;
+        right: 210px;
+        top: 5px;
+        font-size: 19px;
+
+    }
+
+    #nav-list-item-4 {
+        display: block;
+        position: relative;
+        right: 210px;
+        top: 5px;
+        font-size: 19px;
+
+    }
+
+
+    header {
+        height: 300px;
+        width: 100%;
+    }
+
+    #home-header {
+        width: 80%;
+    }
+
+    #banner{
+        height: 750px;
+        width: 260%;
+    }
+
+    #banner-symbol {
+        display: none;
+    }
+
+    #banner-content-text1 {
+        position: relative;
+        right: 0px;
+        font-size: 50px;
+    }
+    #banner-content-text2 {
+        position: relative;
+        right: 0px;
+        font-size: 50px;
+
+    }
+
+    #banner-button {
+        position: relative;
+        right: 0px;
+    }
+
+    #what-we-do {
+        height: 4200px;
+        width: 260%;
+    }
+    
+    .what-we-do-text {
+        font-size: 44px;
+    }
+
+    #what-we-do-table-heading-1{
+        font-size: 54px;
+        position: relative;
+        left: 180px;
+    }
+
+    #what-we-do-table-image-design {
+        position: relative;
+        left: 180px;
+    }
+
+    #what-we-do-table-text-1{
+        font-size: 44px;
+        position: relative;
+        left: 180px;
+        top: -30px;
+    }
+
+    #what-we-do-table-heading-2{
+        position: relative;
+        right: 300px;
+        top: 900px;
+        font-size: 54px;
+
+    }
+
+    #what-we-do-table-image-dev{
+        position: relative;
+        right: 300px;
+        top: 900px;
+    }
+
+    #what-we-do-table-text-2{
+        position: relative;
+        right: 230px;
+        top: 800px;
+        font-size: 44px;
+
+    }
+
+    #what-we-do-table-heading-3{
+        position: relative;
+        right: 720px;
+        top: 1700px;
+        font-size: 54px;
+
+    }
+
+    #what-we-do-table-image-content{
+        position: relative;
+        right: 740px;
+        top: 1700px;
+    }
+
+    #what-we-do-table-text-3{
+        position: relative;
+        right: 724px;
+        top: 1735px;
+        font-size: 44px;
+
+    }
+
+
+
+    #index-image {
+        visibility: hidden;
+    }
+
+    #logo{
+        font-size: 36px;
+        position: relative;
+        bottom: 0px;
+        left: 8px;
+    }
+
+    #ending-div-a {
+        position: relative;
+        bottom: 300px;
+        width: 260%;
+        height: 2000px;
+        margin-top: -50px;
+    }
+
+    #ending-div-heading{
+        font-size: 120px;
+        left: 100px;
+        
+    }
+
+    #ending-div-subheading{
+        font-size: 80px;
+    }
+
+    .ending-div-text {
+        font-size: 49px;
+        width: 700px;
+    }
+
+    #footer-a {
+        width: 260%;
+        margin-top: -300px;
+    }
+
+    #footer1 {
+        height: 1400px;
+        
+    }
+
+    #footer-table{
+        position: relative;
+        left: 100px;
+    }
+
+    #footer-table-name {
+        position: relative;
+        left: 20px;
+        font-size: 64px;
+
+    }
+
+    #footer-table-item-east-windsor {
+        position: relative;
+        left: 10px;
+        top: -30px;
+        font-size: 44px;
+
+    }
+
+    #footer-table-item-navigation{
+        position: relative;
+        right: 340px;
+        top: 300px;
+    }
+
+    #footer-table-item-about-us{
+        position: relative;
+        right: 340px;
+        top: 260px;
+
+
+    }
+    #footer-table-item-recent-posts{
+        position: relative;
+        right: 640px;
+        top: 550px;
+    }
+
+    #footer-table-item-blogs{
+        position: relative;
+        right: 620px;
+        top: 410px;
+    }
+
+    .fa{
+        left: 0px;
+    }
+    #scroll-up-button{
+        position: relative; 
+        right: 100px;
+    }
+}
