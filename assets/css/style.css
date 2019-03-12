@@ -1662,7 +1662,9 @@ header {
 
 
 @media screen and (max-width: 330px){
-
+    body {
+        width: 35%;
+    }
  
     #nav-list-item-1 {
         display: block;
