@@ -378,6 +378,13 @@ header {
     top: 500px;
 }
 
+#ending-div-b {
+    height: 720px;
+    background-color: #64D0D9;
+    width: 100%;
+    position: relative;
+    top: 0px;
+}
 #ending-div-c {
     height: 480px;
     background-color: #64D0D9;

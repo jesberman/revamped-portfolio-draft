@@ -19,6 +19,7 @@ function test() {
   if (document.body.scrollTop > 3600 || document.documentElement.scrollTop > 3600) {
     $("#ending-div-heading-a").fadeIn(3000);
     $("#ending-div-heading-b").fadeIn(3000);
+    
 
     $("#ending-div-subheading-a").fadeIn(3000);
     $(".ending-div-text-a").fadeIn(3000);
