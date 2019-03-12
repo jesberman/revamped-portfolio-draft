@@ -1658,8 +1658,236 @@ header {
     
 }
 
+@media screen and (max-width: 330px){
+    #nav-list-item-1 {
+        display: block;
+        position: relative;
+        left: -10px;
+        top: 0px;
+        font-size: 9px;
+
+    }
+
+    #nav-list-item-2 {
+        display: block;
+        position: relative;
+        left: -10px;
+        top: 0px;
+        font-size: 9px;
+    }
+
+    #nav-list-item-3 {
+        display: block;
+        position: relative;
+        right: 210px;
+        bottom: 15px;
+        font-size: 9px;
+
+    }
+
+    #nav-list-item-4 {
+        display: block;
+        position: relative;
+        right: 210px;
+        bottom: 10px;
+        font-size: 9px;
+
+    }
 
 
+    header {
+        height: 200px;
+        width: 100%;
+    }
+
+    /* #logo{
+        font-size: 16px;
+        position: relative;
+        bottom: 25px;
+    } */
+
+    #home-header {
+        width: 37%;
+    }
+
+    #banner{
+        height: 750px;
+    }
+
+    #banner-symbol {
+        display: none;
+    }
+
+    #banner-content-text1 {
+        position: relative;
+        right: 100px;
+        font-size: 25px;
+    }
+    #banner-content-text2 {
+        position: relative;
+        right: 100px;
+        font-size: 25px;
+
+    }
+
+    #banner-button {
+        position: relative;
+        right: 60px;
+    }
+
+    #what-we-do {
+        height: 2800px;
+    }
+
+    #what-we-do-table-heading-1{
+        position: relative;
+        right: 0px;
+    }
+
+    #what-we-do-table-image-design{
+        position: relative;
+        right: 0px;
+    }
+
+    #what-we-do-table-text-1{
+        position: relative;
+        right: 0px;
+    }
+    .what-we-do-text {
+        position: relative;
+        right: 20px;
+    }
+    
+
+    #what-we-do-table-heading-2{
+        position: relative;
+        right: 300px;
+        top: 600px;
+    }
+
+    #what-we-do-table-image-dev{
+        position: relative;
+        right: 300px;
+        top: 600px;
+    }
+
+    #what-we-do-table-text-2{
+        position: relative;
+        right: 300px;
+        top: 600px;
+    }
+
+    #what-we-do-table-heading-3{
+        position: relative;
+        right: 620px;
+        top: 1200px;
+    }
+
+    #what-we-do-table-image-content{
+        position: relative;
+        right: 620px;
+        top: 1200px;
+    }
+
+    #what-we-do-table-text-3{
+        position: relative;
+        right: 620px;
+        top: 1235px;
+    }
+
+
+
+    #index-image {
+        visibility: hidden;
+    }
+
+    #logo{
+        font-size: 16px;
+        position: relative;
+        bottom: 25px;
+        left: 8px;
+    }
+
+    #ending-div-a {
+        position: relative;
+        bottom: 300px;
+    }
+
+    .ending-div-text {
+        font-size: 22px;
+        position: relative;
+        left: 60px;
+        width: 200px;
+    }
+
+    #ending-div-heading {
+        position: relative;
+        left: 70px;
+        width: 200px;
+
+    }
+
+    #ending-div-subheading{
+        position: relative;
+        left: 10px;
+
+
+    }
+
+
+    #footer1 {
+        height: 900px;
+    }
+
+    #footer-a {
+
+        margin-top: -300px;
+
+    }
+
+    #footer-table-name {
+        position: relative;
+        left: 20px;
+    }
+
+    #footer-table-item-east-windsor {
+        position: relative;
+        left: 10px;
+    }
+
+    #footer-table-item-navigation{
+        position: relative;
+        right: 340px;
+        top: 300px;
+    }
+
+    #footer-table-item-about-us{
+        position: relative;
+        right: 320px;
+        top: 260px;
+
+
+    }
+    #footer-table-item-recent-posts{
+        position: relative;
+        right: 640px;
+        top: 550px;
+    }
+
+    #footer-table-item-blogs{
+        position: relative;
+        right: 620px;
+        top: 410px;
+    }
+
+    .fa{
+        left: 0px;
+    }
+    
+    
+}
+
+/* 
 
 @media screen and (max-width: 330px){
     body {
@@ -1709,6 +1937,8 @@ header {
 
     #home-header {
         width: 80%;
+        position: relative;
+        right: -40px;
     }
 
     #banner{
@@ -1906,4 +2136,4 @@ header {
         position: relative; 
         right: 100px;
     }
-}
+} */
