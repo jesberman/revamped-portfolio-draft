@@ -27,6 +27,8 @@ function test() {
 
   if (document.body.scrollTop > 1500 || document.documentElement.scrollTop > 1500) {
     $("#cube-section").fadeIn(3000);
+    $(".cs").fadeIn(3000);
+
 
   }
   if (document.body.scrollTop > 2500 || document.documentElement.scrollTop > 2500) {

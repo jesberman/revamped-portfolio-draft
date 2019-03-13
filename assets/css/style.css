@@ -369,7 +369,10 @@ header {
 #print-services-text {
     margin-top: 100px;
 }
-
+#ending-div {
+    background-color: #64D0D9;
+    padding-bottom: 30px;
+}
 #ending-div-a {
     height: 720px;
     background-color: #64D0D9;
@@ -506,6 +509,7 @@ header {
 .cs {
     color: white;
     text-shadow: 2px 2px 4px #000000;
+    display: none;
 }
 
 .services-fadein-1 {
